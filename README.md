@@ -28,7 +28,7 @@
 ## Preview
 ### Home Page
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/79349878/154784790-8ac28787-2784-454d-8d8b-2d1d8294ef6f.gif" height="1085" width="1855">
+  <img src="https://user-images.githubusercontent.com/79349878/154785049-b3ffaa4a-9d99-48e5-8b10-938533ad6733.gif">
 </div>
 
 ### Tasks list
