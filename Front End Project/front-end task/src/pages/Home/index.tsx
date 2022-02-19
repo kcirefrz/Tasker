@@ -168,7 +168,7 @@ const Home: React.FC = () => {
 
                     <div className="social-media">
                         <a href="https://github.com/kcirefrz" target="_blank"><FiGithub size={40} color="white" href="https://github.com" /></a>
-                        <a href="https://www.linkedin.com/in/erick-fares-3941a0207/"><AiFillLinkedin size={50} color="white" /></a>
+                        <a href="https://www.linkedin.com/in/erick-fares-3941a0207/" target="_blank"><AiFillLinkedin size={50} color="white" /></a>
                         <a href="https://www.instagram.com/erickfrzz/" target="_blank" ><BsInstagram size={40} color="white" /></a>
                     </div>
                 </div> 
