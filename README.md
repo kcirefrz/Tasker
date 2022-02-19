@@ -33,7 +33,7 @@
 
 ### Tasks list
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/79349878/154784754-66ccd8bd-d634-4173-a4ed-410367f6621d.png" height="480" width="640">
+  <img src="https://user-images.githubusercontent.com/79349878/154784754-66ccd8bd-d634-4173-a4ed-410367f6621d.png">
 </div>
 
 # Technologies
