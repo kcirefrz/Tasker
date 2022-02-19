@@ -11,6 +11,11 @@
 
 .comp{
     display: flex;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    /*background-image: linear-gradient( to right, white,white,white,white,white,white,white,rgb(88, 222, 255), rgb(159, 59, 218) );
+    padding: 20px;
+    border-radius: 10px;*/
 }
 
 .comp h1{
@@ -19,7 +24,7 @@
 }
 
 .comp p{
-    font-size: 24px;
+    font-size: 20px;
     font-style: italic;
 }
 
@@ -27,7 +32,167 @@
     margin-right: 50px;
 }
 
-.tasker-video{
-    width: 640px;
-    height: 320px;
+.p-text h1{
+    margin-bottom: 50px;
+}
+
+.video-section{
+    text-align: center;
+}
+
+.initial-list,
+.new-task-sec,
+.appearance,
+.visualize,
+.edit-button,
+.finish,
+.remove{
+    text-align: center;
+    margin-bottom: 50px;
+    background: rgba(230, 253, 255, 0.774);
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.appearance,
+.visualize,
+.finish{
+    background: rgba(244, 230, 255, 0.774);
+}
+
+.initial-list h1,
+.new-task-sec h1,
+.appearance h1,
+.visualize h1,
+.edit-button h1,
+.finish h1,
+.remove h1{
+    margin-bottom: 20px;
+}
+
+.initial-list img,
+.new-task-sec img,
+.appearance img,
+.visualize img,
+.edit-button img,
+.finish img,
+.remove img{
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.initial-list p,
+.new-task-sec p,
+.appearance p,
+.visualize p,
+.edit-button p,
+.finish p,
+.remove p{
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.init-description,
+.newtsk-description,
+.apprc-description,
+.visu-description,
+.edit-description,
+.finish-description,
+.remove-description{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+}
+
+footer .footer-flex{
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+footer .logo-footer{
+    background-size: cover;
+    width: 10%;
+    margin-right: 8px;
+}
+
+footer .logo-name-footer{
+    background-size: cover;
+    width: 12%;
+    margin-right: 30px;
+}
+
+footer .tasker-brand p{
+    color: white;
+    font-style: italic;
+}
+
+.social-media{
+    display: flex;
+}
+
+.social-media a{
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1200px){
+    .initial-list img,
+    .appearance img,
+    .remove img{
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .initial-list img,
+    .appearance img,
+    .remove img{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .initial-list img,
+    .new-task-sec img,
+    .appearance img,
+    .visualize img,
+    .edit-button img,
+    .finish img,
+    .remove img{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1199px){
+    .comp .p-text p{
+        display: none;
+    }
+
+    .comp{
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+
+    .video-section{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 824px){
+    .footer-flex .social-media{
+        display: inline-block;
+    }
+
+    footer .logo-footer, footer .logo-name-footer{
+        display: none;
+    }
 }

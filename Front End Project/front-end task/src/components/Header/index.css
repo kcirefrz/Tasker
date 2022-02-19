@@ -9,3 +9,13 @@
     width: 6%;
     margin-right: 30px;
 }
+
+@media screen and (max-width: 991px){
+    .logo-name{
+        display: none;
+    }
+
+    .logo, .logo-name{
+        margin-right: 0;
+    }
+}
